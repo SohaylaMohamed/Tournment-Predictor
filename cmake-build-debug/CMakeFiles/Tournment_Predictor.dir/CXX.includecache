@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sohayla/CLionProjects/Tournment Predictor/Driver.h
+map
+-
+LocalPredictor.h
+/home/sohayla/CLionProjects/Tournment Predictor/LocalPredictor.h
+Selector.h
+/home/sohayla/CLionProjects/Tournment Predictor/Selector.h
+GlobalPredictor.h
+/home/sohayla/CLionProjects/Tournment Predictor/GlobalPredictor.h
+
+/home/sohayla/CLionProjects/Tournment Predictor/GlobalPredictor.h
+string
+-
+State.h
+/home/sohayla/CLionProjects/Tournment Predictor/State.h
+
+/home/sohayla/CLionProjects/Tournment Predictor/LocalPredictor.h
+string
+-
+State.h
+/home/sohayla/CLionProjects/Tournment Predictor/State.h
+
+/home/sohayla/CLionProjects/Tournment Predictor/Selector.h
+string
+-
+map
+-
+State.h
+/home/sohayla/CLionProjects/Tournment Predictor/State.h
+
+/home/sohayla/CLionProjects/Tournment Predictor/State.h
+
+/home/sohayla/CLionProjects/Tournment Predictor/main.cpp
+iostream
+-
+fstream
+-
+Driver.h
+/home/sohayla/CLionProjects/Tournment Predictor/Driver.h
+
